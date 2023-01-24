@@ -1,38 +1,81 @@
-.headline {
-    padding-top: 1em;
-    color: lightcoral;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/* Home */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+.intro_section {
+    display: flex;
+    justify-content: space-between;
+  }
+.intro {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 5em;
+    padding-left: 4em;
 }
-
-
+.headline {
+    padding-top: .25em;
+    font-size: 25em;
+    color: lightcoral;
+    font-family: 'Roboto', sans-serif;
+}
 footer {
     background-color: black;
     color: white;
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 10%; /* adjust as per requirement */
-  }
-  
-  .footer_logo {
-   
-    margin: auto;
+    height: 5%;
+    font-family: 'Roboto', sans-serif;
   }
 
-  footer .col-4:first-child {
-    display: flex;
+/* Contact */
+.contact_logo {
+    align-items: center;
+    justify-items: center;
+}
+
+.contact_logo > img {
+    height: 10em;
     align-items: center;
     justify-content: center;
-    height: 50%; /* adjust as per requirement */
-    margin-top: 25px;
 }
-  
-  footer h1 {
-    color: white;
+.contact_title > h1 {
     text-align: center;
-  }
-  
-  footer p {
-    color: white;
+    padding-top: 2em;
+    font-size: 3em;
+    color: lightcoral;
+    font-family: 'Roboto', sans-serif;
+}
+.contact_info {
     text-align: center;
-  }
-  
+}
+.contact_info_name {
+    font-size: 2em;
+}
+.contact_info_email {
+    font-size: 2em;
+}
+.contact_info_phonenumber {
+    font-size: 2em;
+}
+
+/* Steal this Website */
+.steal_headline > h1 {
+    text-align: center;
+    padding-top: 2em;
+    font-size: 3em;
+    color: lightcoral;
+    font-family: 'Roboto', sans-serif;
+}
+.steal_h2 {
+    color: lightcoral;
+}
+.steal_headline_divider {
+    color: lightcoral;
+}

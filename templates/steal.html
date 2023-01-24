@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Steal this Webpage</title>
+    </head>
+    <body>
+       {% block container %}
+       <div class="steal_headline">
+            <h1>Steal this Website</h1>
+            <hr class="steal_headline_divider">
+        </div>
+        <div class="steal_intro">
+            <h2 class="steal_h2">Intro</h2>
+            <p>This website is a portfolio. I built it in a day using free tools, open-source software, and about fifteen dollars and you can even shave a few dollars off that if you want.</p>
+            <p>I’ve been thinking about this guide for a while now, mainly of what the <em>structure</em> and <em>scope</em> would be. I decided that this guide will follow a six-month period in late 2021-22 when I tried to answer the question "how do you make a website with the Python programing language?”</p>
+            <p>That’s a big question. No one <em>unprompted</em> would ask that question. I won’t go into exactly <em>why</em> I asked myself that question, suffice to say it happened and it led me down an interesting path. I learned A LOT along that path. Getting from <em>setting up a development environment</em> to a <em>live website</em> the first time was <strong>incredibly</strong> rewarding and I want to share that journey the best with anyone hoping to do the same.</p>
+            <h2 class="steal_h2">Who is this Guide For?</h2>
+            <p>The most obvious answer is “someone who wants to build a website”.</p>
+            <p>However a <em>useful</em> answer would be closer to <strong>someone willing to learn how to build a website while getting your hands dirty</strong>. There are companies out there who have simplified the creation of a website to the level of creating a PowerPoint presentation. That’s an incredible achievement because <strong>everyone</strong> who wants a website, deserves a website. The <em>barrier of entry</em> shouldn’t be a six month self-induced <em>crash course</em>. That should just be for fun.</p>
+            <p>Another candidate would be <strong>anyone looking for an entry-point into Python</strong>. I’m not a developer, more of an <em>enthusiast</em>. An aspiring <em>tinkerer</em>. However, a simple website using  <a href="https://flask.palletsprojects.com/en/2.2.x/">Flask</a>, which is a Python <em>framework</em> - or, a collection of <em>pre-written</em> code (Python in our case) that provides the tools and structure to help develop a kind of software program (in our case, websites) - was an interesting project that allowed me to practice my Python. You’ll learn how to “setup a programing environment”, how to use “Git”, basic Python, “package management”, and more.</p>
+            <p>Lastly, and this might be a stretch, any technology-curious person without the traditional <em>technology</em> background looking for a broad exposure to the technology world. I’m obviously “self-taught”, or else why would I ask that original question of “how do you make a website with the Python programing language?” There’s a million and one guides online explaining how to build a website, maybe this one is the one that <strong>finally</strong> gets you over the hump - a nice thought.</p>
+            <p>Also, any comments or suggestions and most importantly <strong>corrections</strong>, please feel free to reach out! This is a learning experience for me just as much as any hypothetical reader, let’s talk.</p>
+            <br>
+            <h2 class="steal_h2">Coming Soon: Linux and MacOS - Terminal Buddies</h2>
+        </div>
+            {% endblock %}
+       
+    </body>
+     
+    
+</html>
